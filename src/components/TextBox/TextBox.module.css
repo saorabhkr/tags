@@ -1,0 +1,37 @@
+.TextBox {
+  position: relative;
+  width: 100%;
+}
+
+.Wrap {
+  max-width: 1441px;
+  margin: 0 auto;
+}
+h1{
+  text-align:center;
+}
+textarea{
+  width:100%;
+  font-size: 20px;
+}
+button{
+  border: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  background: indianred;
+  transition: all 0.3s;
+  color: #fff;
+  border:2px solid indianred;
+}
+button:hover{
+  color: indianred;
+  background: #fff;
+  border:2px solid indianred;
+}

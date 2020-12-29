@@ -1,0 +1,51 @@
+/* Navigation Styles */
+/* Header */
+.Footer {
+  position: absolute;
+  width: 100%;
+  background: indianred;
+  height: 50px;
+  line-height: 50px;
+  bottom:0
+}
+
+.Wrap {
+  max-width: 1441px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.Logo {
+  font-family: inherit;
+  font-size: 1.5em;
+  margin-left: 1em;
+  margin-top:0;
+}
+.Logo a {
+  color: #fff;
+  text-decoration: none;
+  opacity: 1;
+  transition: all 0.2s ease;
+}
+.Logo a:hover {
+  opacity: 0.85;
+}
+.Navbar .Menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.Navbar .Menu li {
+  list-style-type: none;
+  display: inline-block;
+}
+.Navbar .Menu li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 0.8em;
+  transition: all 0.2s ease;
+}
+.Navbar .Menu li a:hover {
+  background-color: #df9797;
+}

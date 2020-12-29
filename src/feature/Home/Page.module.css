@@ -1,0 +1,11 @@
+/* Navigation Styles */
+/* Header */
+.Page {
+  position: relative;
+  width: 100%;
+}
+
+.Wrap {
+  max-width: 1441px;
+  margin: 0 auto;
+}
